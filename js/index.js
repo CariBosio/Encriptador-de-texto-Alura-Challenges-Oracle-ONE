@@ -60,7 +60,7 @@ copiar.addEventListener("click", () => {
   let copiado = text.textContent;
 
   navigator.clipboard.writeText(copiado).then(() => {
-    copiar.textContent = "Copiado ✅";
+    copiar.textContent = "Copiado";
     copiar.classList.add("btn-copiado");
 
     window.setTimeout(() => {
